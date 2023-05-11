@@ -70,16 +70,10 @@ void draw() {
   if (frameCount%60==0) {
     segundos++;
   }
-
-  if (segundos >= 3) {
+if (segundos >= 3 && pantalla < 3) {
     segundos = 0;
     pantalla++;
   }
-
-  if (pantalla > 3) {
-    pantalla = 1;
-  }
-
 
   textFont(fuente);
   textSize(25);
@@ -89,8 +83,12 @@ void draw() {
 
 void mousePressed() {
   if (mouseX >= 440 && mouseX <= 560 && mouseY >= 420 && mouseY <= 450) {
-
-    pantalla = 0;
-    segundos = 1;
+  pantalla = 0;
+  segundos = 1; 
+    if (pantalla ==3) {
+      return;
+    }
   }
 }
+
+ 
