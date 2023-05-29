@@ -48,7 +48,7 @@ void draw() {
     textFont(fuente);
     fill(255);
     textSize(20);
-    text("Puede expresar sus estados de ánimo y comunicarse a través de gestos, \n Puede expresar sus estados de ánimo \n y comunicarse a través de gestos, ladridos, gruñidos, de su postura corporal \n y de los movimientos de la cola. \n Suele tener una mirada expresiva \n y es capaz de establecer vínculos muy afectuosos \n y fieles con los humanos.", x, y);
+    text("Puede expresar sus estados de ánimo \n y comunicarse a través de gestos, ladridos, gruñidos, de su postura corporal \n y de los movimientos de la cola. \n Suele tener una mirada expresiva \n y es capaz de establecer vínculos muy afectuosos \n y fieles con los humanos.", x, y);
 
     x +=1;
     if (x > width) {
