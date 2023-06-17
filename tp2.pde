@@ -1,6 +1,6 @@
 //Leonela Malena Vazquez 94030/1
 // Comision 2
-
+//Tuve problemas para realizar el video pido perdon
 
 
 
